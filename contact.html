@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Contact form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSD Contact form</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <style>
@@ -9,8 +10,8 @@
       min-height: 100%;
       padding: 0;
       margin: 0;
-      font-family: Roboto, Arial, sans-serif;
-      font-size: 14px;
+      font-family: futura, Roboto, Arial, sans-serif;
+      font-size: 16px;
       color: #666;
       }
       h1 {
@@ -27,13 +28,13 @@
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      background: #1c87c9;
+      background: #efe35d;
       }
       form {
       padding: 25px;
       margin: 25px;
       box-shadow: 0 2px 5px #f5f5f5; 
-      background: #f5f5f5; 
+      background: #a7ec81; 
       }
       .fas {
       margin: 25px 10px 0;
@@ -50,7 +51,7 @@
       width: calc(100% - 18px);
       padding: 8px;
       margin-bottom: 20px;
-      border: 1px solid #1c87c9;
+      border: 1px solid #7738d7;
       outline: none;
       }
       input::placeholder {
@@ -59,51 +60,63 @@
       button {
       width: 100%;
       padding: 10px;
-      border: none;
+      border: 1px solid #7738d7;
       background: #1c87c9; 
       font-size: 16px;
       font-weight: 400;
       color: #fff;
       }
       button:hover {
-      background: #2371a0;
+      background: #7738d7;
       }    
       @media (min-width: 568px) {
       .main-block {
       flex-direction: row;
       }
+      .left-part, img{
+        width: 15%;
+      }
       .left-part, form {
-      width: 50%;
+      width: 30%;
       }
       .fa-envelope {
       margin-top: 0;
-      margin-left: 20%;
+      margin-left: 16%;
       }
       .fa-at {
       margin-top: -10%;
-      margin-left: 65%;
+      margin-left: 45%;
       }
       .fa-mail-bulk {
-      margin-top: 2%;
-      margin-left: 28%;
+      margin-top: 22%;
+      margin-left: 38%;
       }
       }
     </style>
   </head>
   <body>
     <div class="main-block">
+      <img src="/images/KSD square logo copy 2.JPG" alt="Logo"style="width:300px;height:230px;">
       <div class="left-part">
         <i class="fas fa-envelope"></i>
         <i class="fas fa-at"></i>
         <i class="fas fa-mail-bulk"></i>
       </div>
       <form action="/">
-        <h1>Contact Us</h1>
+        <h1>Contact Me</h1>
         <div class="info">
           <input class="fname" type="text" name="name" placeholder="Full name">
           <input type="text" name="name" placeholder="Email">
           <input type="text" name="name" placeholder="Phone number">
-          <input type="text" name="name" placeholder="Website">
+          <input type="text" name="name" placeholder="Subject">
+          <label>
+            <input type="radio"name="mailing list" value="yes">Yes
+            Please add me to your email mailing list
+          </label>
+          <label>
+            <input type="radio" name="mailing list" value="no">No
+            Please do not add me to your email mailing list
+          </label>
         </div>
         <p>Message</p>
         <div>
@@ -111,6 +124,8 @@
         </div>
         <button type="submit" href="/">Submit</button>
       </form>
+      
+   
     </div>
   </body>
 </html>
