@@ -392,6 +392,11 @@ p {
     border: 2px solid rgb(241, 225, 53);
     padding: 30px;
   }
+  knife {
+    background-color:royalblue;
+    color: orangered;
+    font-size: 23pt
+  }    
   address {
 margin-top: 1em;
 padding-top: 1em;
