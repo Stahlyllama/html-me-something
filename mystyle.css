@@ -355,6 +355,9 @@ body {
   background-color: #96e2e7 
 }
 
+#firstBox{
+background-color: rgb(122, 250, 93); 
+}
 ul.navbar {
     list-style-type: none;
 padding: 0;
@@ -412,7 +415,7 @@ p {
 
 .flex-container{
   display: flex;
-  background-color: yellow;
+  background-color: rgb(251, 176, 71);
 }
 
 #anvil {
@@ -445,6 +448,61 @@ p {
   height:378px;
 }
 
+#smallAntennaTower{
+  width:542px;
+  height:678px;
+}
+
+#largeAntennaTower{
+  width:542px;
+  height:678px;
+}
+
+#ladderAntennaTower{
+  width:542px;
+  height:678px;
+}
+
+#ledAntennaTower{
+  width:542px;
+  height:678px;
+}
+
+
+#ledAntennaTower1{
+  width:642px;
+  height:378px;
+}
+
+#babyButcher{
+  width:474px;
+  height:378px;
+}
+
+#firstKnife{
+  width:374px;
+  height:378px;
+}
+
+#neckKnife{
+  width:374px;
+  height:378px;
+}
+
+#fif{
+  width:px;
+  height:415px;
+}
+
+#ksdLogo{
+  width:300px;
+  height:230px;
+}
+#sskLogo{
+  width: 200px;
+  height: 230px;
+}
+
 .yellowbox{
   display: flex;
   font-size: 20pt; 
@@ -465,12 +523,21 @@ p {
 .knife {
     display: flex;
     background-color:rgb(41, 54, 93);
+    border: 2px solid rgb(241, 225, 53);
     color: orangered;
     font-size: 23pt
 }    
 
-  #knives {
-color: blue 
+#knives {
+color: blue; 
+}
+
+#timeline{
+  background-color: pink; 
+  color: navy;
+  border: 2px solid rgb(241, 225, 53);
+  padding: 20px;
+  list-style: none
 }
 
 address {
